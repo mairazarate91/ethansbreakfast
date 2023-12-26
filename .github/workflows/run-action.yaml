@@ -1,9 +1,7 @@
 name: Workflow using External Action
 
 on:
-  push:
-    branches:
-      - main
+  workflow_dispatch:
 
 jobs:
   use-external-action:
