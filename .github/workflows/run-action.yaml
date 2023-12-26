@@ -12,5 +12,5 @@ jobs:
         uses: actions/checkout@v2
 
       - name: Use External Action
-        uses: mairazarate91/ethansbreakfast@v1.1
+        uses: mairazarate91/ethansbreakfast@v1.2
 
