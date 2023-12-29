@@ -6,7 +6,8 @@ on:
       - main
 
 runs: 
-  using: ubuntu-latest
+  using: composite
+  shell: bash
   steps:
     - name: Checkout Repository
       uses: actions/checkout@v2
