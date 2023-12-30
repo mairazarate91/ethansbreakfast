@@ -2,6 +2,8 @@ name: Workflow using External Action
 
 on:
   workflow_dispatch:
+  schedule:
+    - cron: '0 13 * * 6'  # '0 13 * * 6' corresponds to every Saturday at 8:00 AM USA Eastern Time (UTC-5)
 
 jobs:
   use-external-action:
