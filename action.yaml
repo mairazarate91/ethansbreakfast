@@ -7,7 +7,7 @@ on:
 
 runs: 
   using: composite
-  shell: bash
+ 
   steps:
     - name: Checkout Repository
       uses: actions/checkout@v2
